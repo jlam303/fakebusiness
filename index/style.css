@@ -1,0 +1,32 @@
+#logo{
+    grid-area: logo;
+}
+#searchbar{
+    grid-area: searchbar;
+}
+#menu{
+    grid-area: menu;
+}
+#gallery{
+    grid-area: gallery;
+}
+#order{
+    grid-area: order;
+}
+#main{
+    grid-area: main;
+}
+#footer{
+    grid-area: footer;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "logo searchbar searchbar menu gallery order"
+    "main main main main main main"
+    "footer footer footer footer footer footer"
+    ;
+
+}
