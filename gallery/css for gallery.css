@@ -1,3 +1,62 @@
 body{
     background-color: white;
 }
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "logo logo logo "
+    "video  video video "
+    "spred rav rat "
+    "pizza las gno "
+    ". can . "
+    "footer footer footer "
+    ;
+
+}
+
+.video{
+    grid-area: video;
+    height: 15cm;
+    width: 21cm;
+}
+.logo{
+    grid-area: logo;
+    
+}
+.spred{
+    grid-area: spred;
+    height: 9cm;
+    width: 11cm;
+}
+.rav{
+    grid-area: rav;
+    height: 9cm;
+    width: 11cm;
+}
+.rat{
+    grid-area: rat;
+    height: 9cm;
+    width: 11cm;
+}
+.pizza{
+    grid-area: pizza;
+    height: 9cm;
+    width: 11cm;
+}
+.las{
+    grid-area: las;
+    height: 9cm;
+    width: 11cm;
+}
+.gno{
+    grid-area: gno;
+    height: 9cm;
+    width: 11cm;
+}
+.can{
+    grid-area: gno;
+    height: 9cm;
+    width: 11cm;
+}
