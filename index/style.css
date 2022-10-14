@@ -1,6 +1,10 @@
 #logo{
     grid-area: logo;
 }
+#logo > a > img{
+    width: 350px;
+    height: 118px;
+}
 #searchbar{
     grid-area: searchbar;
 }
@@ -28,5 +32,4 @@
     "main main main main main main"
     "footer footer footer footer footer footer"
     ;
-
 }
