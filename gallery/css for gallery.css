@@ -1,62 +1,95 @@
 body{
     background-color: white;
+    background-image: url("./images/wood.jpg");
+    object-fit: cover;
 }
 .container{
     display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto auto auto auto auto auto ;
+    border: 5px black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6,auto);
+    
     grid-template-areas: 
-    "logo logo logo "
-    "video  video video "
-    "spred rav rat "
-    "pizza las gno "
-    ". can . "
-    "footer footer footer "
+    "logo logo header header"
+    ". video video ."
+    "spred rav rat zucc"
+    "pizza las gno chee"
+    ". can . . "
+    "footer footer footer footer"
     ;
 
 }
 
 .video{
     grid-area: video;
-    height: 15cm;
-    width: 21cm;
+    height: 17cm;
+    width: 25cm;
+    border: 5px black;
+}
+.chee{
+    grid-area: chee;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
+}
+.zucc{
+    grid-area: zucc;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .logo{
     grid-area: logo;
-    
+}
+.logo > img{
+    height: 4cm;
+    width: 12cm;
 }
 .spred{
     grid-area: spred;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .rav{
     grid-area: rav;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .rat{
     grid-area: rat;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .pizza{
     grid-area: pizza;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .las{
     grid-area: las;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .gno{
     grid-area: gno;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
 }
 .can{
     grid-area: gno;
-    height: 9cm;
-    width: 11cm;
+    height: 10cm;
+    width: 15cm;
+    border: 5px black;
+}
+.footer{
+    grid-area: footer;
+}
+.header{
+    grid-area: header;
 }
