@@ -1,5 +1,7 @@
 body{
     background-color: white;
+    background-image: url("./images/wood.jpg");
+    object-fit: cover;
 }
 .container{
     display: grid;
