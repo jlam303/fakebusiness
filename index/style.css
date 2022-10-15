@@ -1,3 +1,4 @@
+
 #logo{
     grid-area: logo;
 }
@@ -7,15 +8,27 @@
 }
 #searchbar{
     grid-area: searchbar;
+    margin: auto;
+}
+#search{
+    width: 300px;
 }
 #menu{
     grid-area: menu;
+    margin: auto;
 }
 #gallery{
     grid-area: gallery;
+    margin: auto;
 }
 #order{
     grid-area: order;
+    margin: auto;
+}
+.links {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
 }
 #main{
     grid-area: main;
