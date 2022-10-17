@@ -14,9 +14,28 @@
         <link rel="shortcut icon" href="./form images/favicon.png" type="image/x-icon">
     </head>
 <body>
+
+    <div class="navbar">
+        <div id="logo" class="header"><a href="index.html"><img src="./form images/logo.PNG" alt="Logo of Italian restaurant"></a></div>
+        <div id="searchbar" class="header">
+            <form>
+                <fieldset>
+                    <input type="text" id="search">
+                    <button type="reset">Search</button>
+                </fieldset>
+            </form>
+        </div>
+        <div id="menu" class="header"><a href="../index/index.html" class="links">Menu</a></div>
+        <div id="gallery" class="header"><a href="../gallery/gallery.html" class="links">Gallery</a></div>
+        <div id="order" class="header"><a href="../form/form.html" class="links">Order</a></div>
+    </div>
+
+<div class="orderform">
+   
     <fieldset>
         <legend>Order Form</legend>
-        <p><strong>Appetizers</strong></p>
+        
+        <a style="color: black;"><strong>Appetizers</strong>  </a>
                 <ul>
                     <li> 
                         <input type="radio" id="Garlic Bread" name="Appetizers" value="Garlic Bread">
@@ -28,7 +47,9 @@
                     </li>
                 </ul>
         
-<p><strong>Main Dishes</strong></p>
+
+   <a style="color: black;"><strong>Main Dishes</strong>  </a>
+
 <ul>
 <li> 
     <input type="radio" id="Spagetti" name="Main Dishes" value="Spagetti">
@@ -36,7 +57,7 @@
             </li>
             <li>
     <input type="radio" id="Lasagna" name="Main Dishes" value="Lasagna">
-    <label for="Lasagna">Lasagna</label><br>
+    <label for="Lasagna" ">Lasagna</label><br>
             </li>
             <li>
     <input type="radio" id="Fettachini Alfredo" name="Main Dishes" value="Fettachini Alfredo">
@@ -50,7 +71,8 @@
 
 
 
-<p><strong>Drinks</strong></p>
+
+<a style="color: black;"> <strong>Drinks</strong> </a>
 <ul>
 <li> 
     <input type="radio" id="Coke" name="Drinks" value="Coke">
@@ -74,5 +96,15 @@
     <input type="radio" id="custom" name="Main Dishes" value="custom">
     <label for="custom">Custom Dish <textarea></textarea></label><br>
 </li>
+</div>
+
+<div class="footer">
+    <center><p>Sunday - Thursday: 4:30 until 9:30pm  | Friday and Saturday: 4:30 until 10:30pm</p>
+    <hr id="hr">
+    <p>6316 N Scottsdale Road | Scottsdale, AZ 85253</p>
+    <p>480-307-6900</p>
+    <p>Credits: Gordan Ramsay</p></center>
+</div>
+
 </body>
 </html>

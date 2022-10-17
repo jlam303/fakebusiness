@@ -11,10 +11,25 @@
 </head>
 <body>
 
-<div class="container">
-    <a href="../index/index.html" class="logo"><img src="./images/logo.PNG"></a>
-    
-    
+
+   
+    <div class="navbar">
+        <div id="logo" class="header"><a href="index.html"><img src="./images/logo.PNG" alt="Logo of Italian restaurant"></a></div>
+        <div id="searchbar" class="header">
+            <form>
+                <fieldset>
+                    <input type="text" id="search">
+                    <button type="reset">Search</button>
+                </fieldset>
+            </form>
+        </div>
+        <div id="menu" class="header"><a href="../index/index.html" class="links">Menu</a></div>
+        <div id="gallery" class="header"><a href="../gallery/gallery.html" class="links">Gallery</a></div>
+        <div id="order" class="header"><a href="../form/form.html" class="links">Order</a></div>
+    </div>
+
+    <div class="container">
+
     <video src="./images/foodvideo.mp4" class="video" controls loop muted width="320" height="240">
         Your browser does not support the video tag.
     </video>
@@ -30,9 +45,17 @@
     <img src="./images/gno.jpg" class="gno" alt="picture of gnochi">
     <img src="./images/can.jpg" class="can" alt="picture of cannoli">
 
-    <p class="footer">This is the footer for now</p>
-    <p class="header">Search<textarea></p>
 </div>
+    
+    <div class="footer">
+        <center><p>Sunday - Thursday: 4:30 until 9:30pm  | Friday and Saturday: 4:30 until 10:30pm</p>
+        <hr id="hr">
+        <p>6316 N Scottsdale Road | Scottsdale, AZ 85253</p>
+        <p>480-307-6900</p>
+        <p>Credits: Gordan Ramsay</p></center>
+    </div>
+    
+
 
 </body>
 </html>
