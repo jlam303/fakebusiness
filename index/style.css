@@ -79,3 +79,6 @@ p{
     position: sticky;
     top: 0px;
 }
+#blogo{
+    max-width: 100%;
+}
