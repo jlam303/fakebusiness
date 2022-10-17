@@ -32,39 +32,47 @@
 
 <div class="orderform">
    
+    <p>
+        <h3>Contact Info</h3>
+        <br>
+        <input type="email">
+            <label for="email">Email</label>
+    </p>
+
     <fieldset>
         <legend>Order Form</legend>
         
         <a style="color: black;"><strong>Appetizers</strong>  </a>
                 <ul>
                     <li> 
-                        <input type="radio" id="Garlic Bread" name="Appetizers" value="Garlic Bread">
-                        <label for="Garlic Bread">Garlic Bread</label><br>
+                        <input type="checkbox" id="Garlic Bread" name="Appetizers" value="Garlic Bread">
+                        <label for="Garlic Bread">Garlic Bread ------ $6.00</label><br>
                     </li>
                     <li>
-                        <input type="radio" id="Salad" name="Appetizers" value="Salad">
-                        <label for="Salad">Salad </label><br>
+                        <input type="checkbox" id="Salad" name="Appetizers" value="Salad">
+                        <label for="Salad">Salad ------ $6.00</label><br>
                     </li>
                 </ul>
         
+
 
    <a style="color: black;"><strong>Main Dishes</strong>  </a>
 
 <ul>
 <li> 
     <input type="radio" id="Spagetti" name="Main Dishes" value="Spagetti">
-    <label for="Spagetti">Spagetti</label><br>
+    <label for="Spagetti">Spagetti ------ $13.00</label><br>
             </li>
             <li>
     <input type="radio" id="Lasagna" name="Main Dishes" value="Lasagna">
-    <label for="Lasagna" ">Lasagna</label><br>
+    <label for="Lasagna" ">Lasagna ------ $15.00</label><br>
             </li>
             <li>
     <input type="radio" id="Fettachini Alfredo" name="Main Dishes" value="Fettachini Alfredo">
-    <label for="Fettachini Alfredo">Fettachini Alfredo</label><br>
+    <label for="Fettachini Alfredo">Fettuccine Alfredo ------ $16.00</label><br>
     <li>
     <input type="radio" id="Pizza" name="Main Dishes" value="Pizza">
-    <label for="Pizza">Pizza</label><br>
+    <label for="Pizza">Pizza ------ $9.00</label><br>
 </li>
 
 </ul>
@@ -76,26 +84,29 @@
 <ul>
 <li> 
     <input type="radio" id="Coke" name="Drinks" value="Coke">
-    <label for="Coke">Coke</label><br>
+    <label for="Coke">Coke ------ $1.00</label><br>
             </li>
             <li>
     <input type="radio" id="Pepsi" name="Drinks" value="Pepsi">
-    <label for="Pepsi">Pepsi</label><br>
+    <label for="Pepsi">Pepsi ------ $1.00</label><br>
             </li>
             <li>
     <input type="radio" id="Dr. Pepper" name="Drinks" value="Dr. Pepper">
-    <label for="Dr. Pepper">Dr. Pepper</label><br>
+    <label for="Dr. Pepper">Dr. Pepper ------ $1.00</label><br>
     <li>
     <input type="radio" id="Sprite" name="Drinks" value="Sprite">
-    <label for="Sprite">Sprite</label><br>
+    <label for="Sprite">Sprite ------ $1.00</label><br>
 </li>
+<hr>
+<li>
+    <input type="radio" id="custom" name="Main Dishes" value="custom">
+    <label for="custom">Custom Dish (price may vary)<textarea></textarea></label><br>
+</li>
+
 </ul>
 <input type="submit">
 </fieldset>
-<li>
-    <input type="radio" id="custom" name="Main Dishes" value="custom">
-    <label for="custom">Custom Dish <textarea></textarea></label><br>
-</li>
+
 </div>
 
 <div class="footer">
