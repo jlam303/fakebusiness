@@ -1,48 +1,81 @@
-
-#logo{
-    grid-area: logo;
+html{
+    background-color: #96578A;
 }
 #logo > a > img{
     width: 350px;
     height: 118px;
 }
 #searchbar{
-    grid-area: searchbar;
     margin: auto;
+}
+#searchbar > form > fieldset{
+    border: none;
 }
 #search{
-    width: 300px;
+    width: 600px;
 }
 #menu{
-    grid-area: menu;
     margin: auto;
+}
+#menu>a:hover{
+    color: white;
 }
 #gallery{
-    grid-area: gallery;
     margin: auto;
 }
+#gallery>a:hover{
+    color: white;
+}
 #order{
-    grid-area: order;
     margin: auto;
+}
+#order>a:hover{
+    color: white;
 }
 .links {
     text-decoration: none;
-    color: black;
+    color: #BCE2B1;
     font-size: xx-large;
 }
 #main{
     grid-area: main;
+    background-color: white;
 }
 #footer{
     grid-area: footer;
+    margin:auto;
+}
+#statement{
+    color: black;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: #BCE2B1;
+}
+#hr{
+    margin: auto;
+    width: 100%;
+    background-color: #BCE2B1;
+}
+#fimg{
+    width: 175px;
+    height: 5900px;
 }
 .container{
+    margin: 0px;
+    background-color: #96578A;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "logo searchbar searchbar menu gallery order"
     "main main main main main main"
     "footer footer footer footer footer footer"
     ;
+}
+.navbar{
+    display: flex;
+    background-color: #96578A;
+    position: sticky;
+    top: 0px;
 }
