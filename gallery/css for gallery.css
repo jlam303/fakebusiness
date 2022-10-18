@@ -173,7 +173,7 @@ p{
 }
 #hr{
     margin: auto;
-    width: 100%;
+    max-width: 34%;
     background-color: #BCE2B1;
 }
 #fimg{
