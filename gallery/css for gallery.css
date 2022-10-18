@@ -24,14 +24,19 @@
     grid-template-rows: repeat(6,auto);
     
     grid-template-areas: 
-    "header header"
-    
-    "spred rav"
-    "rat zucc"
-    "pizza las"
-    "gno chee"
-    " can .  "
-    "footer footer"
+    "header"
+    "header"
+    "spred"
+    "rav"
+    "rat"
+    "zucc"
+    "pizza"
+    "las"
+    "gno"
+    "chee"
+    " can"
+    "footer"
+    "footer"
     ;
     }
 }
