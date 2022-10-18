@@ -61,7 +61,7 @@ html {
 
 p {
     text-align: center;
-    color: #8ef074;
+    color: #BCE2B1;
 }
 
 #hr {
@@ -97,4 +97,7 @@ h3{
 table.a {
     table-layout: auto;
     width:fit-content;  
-  }
+}
+.a > tr > th,td{
+    text-align: center;
+}
