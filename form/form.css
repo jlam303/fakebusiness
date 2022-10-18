@@ -1,5 +1,6 @@
 .container{
     display: grid;
+    
     border: 5px black;
     background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -15,11 +16,13 @@
 
 .orderform{
     background-color: white;
+    
 }
 
-/* begin joseph's work */
+
 html{
     background-color: #96578A;
+    
 }
 #logo > a > img{
     width: 350px;
@@ -72,6 +75,7 @@ html{
 p{
     text-align: center;
     color: #BCE2B1;
+    
 }
 #hr{
     margin: auto;
