@@ -61,7 +61,7 @@ html {
 
 p {
     text-align: center;
-    color: #BCE2B1;
+    color: #8ef074;
 }
 
 #hr {
@@ -92,4 +92,20 @@ h2{
 }
 h3{
     text-align: center;
+}
+
+table.a {
+    table-layout: auto;
+    width:fit-content;  
+  }
+  
+
+.menuimageright{
+    width: 400px;
+    height: auto;
+}
+.menuimageleft{
+    width: 400px;
+    height: auto;
+    
 }
