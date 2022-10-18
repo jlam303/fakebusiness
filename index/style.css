@@ -73,6 +73,9 @@ p{
     "footer footer footer footer footer footer"
     ;
 }
+#comment{
+    border: none;
+}
 .navbar{
     display: flex;
     background-color: #96578A;

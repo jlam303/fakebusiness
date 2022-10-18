@@ -12,6 +12,7 @@
     ;
 
 }
+
 .orderform{
     background-color: white;
 }
@@ -81,7 +82,6 @@ p{
     width: 175px;
     height: 5900px;
 }
-
 .navbar{
     display: flex;
     background-color: #96578A;

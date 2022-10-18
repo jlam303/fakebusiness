@@ -12,11 +12,12 @@
         <title>Fine Italian Foods</title>
         <link rel="stylesheet" href="form.css">
         <link rel="shortcut icon" href="./form images/favicon.png" type="image/x-icon">
+
     </head>
 <body>
 
     <div class="navbar">
-        <div id="logo" class="header"><a href="index.html"><img src="./form images/logo.PNG" alt="Logo of Italian restaurant"></a></div>
+        <div id="logo" class="header"><a href="../index/index.html"><img src="./form images/logo.PNG" alt="Logo of Italian restaurant"></a></div>
         <div id="searchbar" class="header">
             <form>
                 <fieldset>
@@ -32,14 +33,20 @@
 
 <div class="orderform">
    
-    <p>
-        <h3>Contact Info</h3>
-        <br>
-        <input type="email">
-            <label for="email">Email</label>
-    </p>
 
+<form>
     <fieldset>
+
+        <p>
+            <h3>Contact Info</h3>
+                <br>
+            Name<abbr title="Required">*</abbr> <input required type="text"></input>
+                <br>
+            Email <abbr title="Required">*</abbr><input required type="email">
+                <label for="email"></label>
+
+        </p>
+
         <legend>Order Form</legend>
         
         <a style="color: black;"><strong>Appetizers</strong>  </a>
@@ -60,18 +67,18 @@
 
 <ul>
 <li> 
-    <input type="radio" id="Spagetti" name="Main Dishes" value="Spagetti">
-    <label for="Spagetti">Spagetti ------ $13.00</label><br>
+    <input type="checkbox" id="Spagetti" name="Main Dishes" value="Spagetti">
+    <label for="Spagetti">Spaghetti ------ $13.00</label><br>
             </li>
             <li>
-    <input type="radio" id="Lasagna" name="Main Dishes" value="Lasagna">
+    <input type="checkbox" id="Lasagna" name="Main Dishes" value="Lasagna">
     <label for="Lasagna" ">Lasagna ------ $15.00</label><br>
             </li>
             <li>
-    <input type="radio" id="Fettachini Alfredo" name="Main Dishes" value="Fettachini Alfredo">
+    <input type="checkbox" id="Fettachini Alfredo" name="Main Dishes" value="Fettachini Alfredo">
     <label for="Fettachini Alfredo">Fettuccine Alfredo ------ $16.00</label><br>
     <li>
-    <input type="radio" id="Pizza" name="Main Dishes" value="Pizza">
+    <input type="checkbox" id="Pizza" name="Main Dishes" value="Pizza">
     <label for="Pizza">Pizza ------ $9.00</label><br>
 </li>
 
@@ -98,24 +105,26 @@
     <label for="Sprite">Sprite ------ $1.00</label><br>
 </li>
 <hr>
-<li>
-    <input type="radio" id="custom" name="Main Dishes" value="custom">
-    <label for="custom">Custom Dish (price may vary)<textarea></textarea></label><br>
-</li>
+Custom Dish (price may vary) <input type="textarea"
+<br>
+
 
 </ul>
-<input type="submit">
+<button type="submit" onClick=eyeball()>Submit</button>
 </fieldset>
+</form>
 
 </div>
 
 <div class="footer">
-    <center><p>Sunday - Thursday: 4:30 until 9:30pm  | Friday and Saturday: 4:30 until 10:30pm</p>
+<center>
+        <p>Sunday - Thursday: 4:30 until 9:30pm  | Friday and Saturday: 4:30 until 10:30pm</p>
     <hr id="hr">
     <p>6316 N Scottsdale Road | Scottsdale, AZ 85253</p>
     <p>480-307-6900</p>
-    <p>Credits: Gordan Ramsay</p></center>
+    <p>Credits: Gordan Ramsay</p>
+</center>
 </div>
-
+<script src="../form/form.js"></script>
 </body>
 </html>

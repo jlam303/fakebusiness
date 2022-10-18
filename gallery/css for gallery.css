@@ -3,11 +3,11 @@
     border: 5px black;
     background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(6,auto);
+    grid-template-rows: repeat(5,auto);
     
     grid-template-areas: 
     "header header header header"
-    ". video video ."
+    
     "spred rav rat zucc"
     "pizza las gno chee"
     ". can . . "
@@ -15,25 +15,41 @@
     ;
 
 }
-
-.video{
-    grid-area: video;
-    height: 17cm;
-    width: 25cm;
-    border: 5px black;
+@media screen and (max-width: 400px){
+    .container{
+    display: grid;
+    
+    background-color: white;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(6,auto);
+    
+    grid-template-areas: 
+    "header header"
+    
+    "spred rav"
+    "rat zucc"
+    "pizza las"
+    "gno chee"
+    " can .  "
+    "footer footer"
+    ;
+    }
 }
+
+
 .chee{
     grid-area: chee;
-    height: 8cm;
-    width: 11cm;
+   height:270px;
+    width:380px;
     
     border: 5px #96578A
 }
 .zucc{
     grid-area: zucc;
-    height: 8cm;
-    width: 11cm;
+     
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .logo{
     grid-area: logo;
@@ -41,48 +57,56 @@
 .logo > img{
     height: 4cm;
     width: 12cm;
+    height:270px;
+    width:380px;
 }
 .spred{
     grid-area: spred;
-    height: 8cm;
-    width: 11cm;
+     
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .rav{
     grid-area: rav;
-    height: 8cm;
-    width: 11cm;
+     
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .rat{
     grid-area: rat;
-    height: 8cm;
-    width: 11cm;
+     
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .pizza{
     grid-area: pizza;
-    height: 8cm;
-    width: 11cm;
+     
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .las{
     grid-area: las;
-    height: 8cm;
-    width: 11cm;
+     
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .gno{
     grid-area: gno;
-    height: 8cm;
-    width: 11cm;
+    
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .can{
     grid-area: gno;
-    height: 8cm;
-    width: 11cm;
     border: 5px black;
+    height:270px;
+    width:380px;
 }
 .footer{
     grid-area: footer;
@@ -92,7 +116,6 @@
 }
 
 
-/* begin joseph's work */
 html{
     background-color: #96578A;
 }
