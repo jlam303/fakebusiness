@@ -112,6 +112,7 @@ html{
 #logo > a > img{
     width: 350px;
     height: 118px;
+    max-width: 100%;
 }
 #searchbar{
     margin: auto;

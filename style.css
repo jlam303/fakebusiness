@@ -1,6 +1,7 @@
 html{
     background-color: #96578A;
 }
+/* Resizes the image */
 #logo > a > img{
     width: 350px;
     height: 118px;
@@ -63,6 +64,7 @@ p{
     width: 175px;
     height: 5900px;
 }
+/* This defines the grid */
 .container{
     margin: 0px;
     background-color: #96578A;
@@ -87,6 +89,7 @@ p{
 #blogo{
     max-width: 100%;
 }
+/* This makes sure the search bar changes on different screens */
 @media screen and (max-width: 475px) {
     #search {
             width: 400px;
