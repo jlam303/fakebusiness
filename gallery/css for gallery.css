@@ -5,13 +5,13 @@
     background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(5,auto);
-    
+    gap: 5px 10px;
     grid-template-areas: 
     "header header header header"
     
     "spred rav rat zucc"
-    "pizza las gno chee"
-    ". can . . "
+    "pizza las can chee"
+    "video video video video "
     "footer footer footer footer"
     ;
 
@@ -31,27 +31,29 @@
     "spred rav"
     "rat zucc"
     "pizza las"
-    "gno chee"
-    " can .  "
+    "can chee"
+    " video video  "
     "footer footer"
     ;
     }
 }
 
 /* image hieght and width css */
+.video{
+    grid-area: video;
+    max-width: 100%;
+}
+
 .chee{
     grid-area: chee;
-   height:270px;
-    width:380px;
-    
+    max-width:100%;
     border: 5px #96578A
 }
 .zucc{
     grid-area: zucc;
      
     border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .logo{
     grid-area: logo;
@@ -59,56 +61,42 @@
 .logo > img{
     height: 4cm;
     width: 12cm;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .spred{
     grid-area: spred;
      
     border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .rav{
     grid-area: rav;
      
     border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .rat{
     grid-area: rat;
      
     border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .pizza{
     grid-area: pizza;
      
     border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .las{
     grid-area: las;
      
     border: 5px black;
-    height:270px;
-    width:380px;
-}
-.gno{
-    grid-area: gno;
-    
-    border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .can{
-    grid-area: gno;
+    grid-area: can;
     border: 5px black;
-    height:270px;
-    width:380px;
+    max-width:100%;
 }
 .footer{
     grid-area: footer;
