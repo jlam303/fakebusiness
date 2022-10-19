@@ -4,6 +4,7 @@ html{
 #logo > a > img{
     width: 350px;
     height: 118px;
+    max-width: 100%;
 }
 #searchbar{
     margin: auto;
@@ -76,12 +77,18 @@ p{
 #comment{
     border: none;
 }
-.navbar{
+.navbar{ 
     display: flex;
     background-color: #96578A;
     position: sticky;
     top: 0px;
+    flex-wrap: wrap;
 }
 #blogo{
     max-width: 100%;
+}
+@media screen and (max-width: 475px) {
+    #search {
+            width: 400px;
+        }
 }
