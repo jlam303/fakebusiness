@@ -54,14 +54,16 @@ html {
     background-color: white;
 }
 
-#footer {
-    grid-area: footer;
+#foot {
+    grid-area: foot;
     margin: auto;
+}
+#foot > p {
+    color: #BCE2B1;
 }
 
 p {
     text-align: center;
-    color: #BCE2B1;
 }
 
 #hr {
@@ -77,7 +79,7 @@ p {
     grid-template-rows: auto;
     grid-template-areas:
         "main main main main main main"
-        "footer footer footer footer footer footer"
+        "foot foot foot foot foot foot"
     ;
 }
 
