@@ -17,6 +17,7 @@ html {
 
 #search {
     width: 600px;
+    
 }
 
 #menu {
@@ -88,6 +89,7 @@ p {
     background-color: #96578A;
     position: sticky;
     top: 0px;
+    flex-wrap: wrap;
 }
 h2{
     text-align: center;
@@ -102,4 +104,9 @@ table.a {
 }
 .a > tr > th,td{
     text-align: center;
+}
+@media screen and (max-width: 475px) {
+    #search {
+        width: 300px;
+    }
 }

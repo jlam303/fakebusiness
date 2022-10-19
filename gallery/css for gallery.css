@@ -15,7 +15,7 @@
     ;
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 475px){
     .container{
     display: grid;
     
@@ -186,4 +186,10 @@ p{
     background-color: #96578A;
     position: sticky;
     top: 0px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 475px) {
+    #search {
+        width: 400px;
+    }
 }

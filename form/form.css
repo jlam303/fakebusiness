@@ -91,4 +91,10 @@ p{
     background-color: #96578A;
     position: sticky;
     top: 0px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 475px) {
+    #search {
+        width: 300px;
+    }
 }
