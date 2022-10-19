@@ -1,3 +1,4 @@
+/* sets the grid */
 .container{
     display: grid;
     border: 5px black;
@@ -15,6 +16,7 @@
     ;
 
 }
+/* makes it look good on mobile */
 @media screen and (max-width: 475px){
     .container{
     display: grid;
@@ -36,7 +38,7 @@
     }
 }
 
-
+/* image hieght and width css */
 .chee{
     grid-area: chee;
    height:270px;
@@ -115,7 +117,7 @@
     grid-area: header;
 }
 
-
+/* navbar element definition */
 html{
     background-color: #96578A;
 }

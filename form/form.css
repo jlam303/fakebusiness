@@ -1,6 +1,6 @@
+/* sets the grid */
 .container{
     display: grid;
-    
     border: 5px black;
     background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -24,6 +24,7 @@ html{
     background-color: #96578A;
     
 }
+/* all stuff for the navbar */
 #logo > a > img{
     width: 350px;
     height: 118px;
@@ -86,6 +87,7 @@ p{
     width: 175px;
     height: 5900px;
 }
+/* makes sure the navbar is sticky and looks nice */
 .navbar{
     display: flex;
     background-color: #96578A;
@@ -93,6 +95,7 @@ p{
     top: 0px;
     flex-wrap: wrap;
 }
+/* makes sure this looks good on mobile */
 @media screen and (max-width: 475px) {
     #search {
         width: 300px;

@@ -1,3 +1,4 @@
+/* navbar */
 html {
     background-color: #96578A;
 }
@@ -72,6 +73,7 @@ p {
     width: 100%;
     background-color: #BCE2B1;
 }
+/* makes the grid */
 .container {
     margin: 0px;
     background-color: #96578A;
@@ -83,7 +85,7 @@ p {
         "foot foot foot foot foot foot"
     ;
 }
-
+/* makes the navbar look good */
 .navbar {
     display: flex;
     background-color: #96578A;
@@ -105,6 +107,8 @@ table.a {
 .a > tr > th,td{
     text-align: center;
 }
+/* makes the content responsive to screen size */
+
 @media screen and (max-width: 475px) {
     #search {
         width: 300px;
